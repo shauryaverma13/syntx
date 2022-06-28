@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'mainfont';
+    src: url(Voice-In-My-Head.otf);
+ }
+
+ @font-face {
+    font-family: 'secfont';
+    src: url(BMREA___.TTF);
+ }
+header{
+    height: 600px;
+}
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,vietnamese');
+
+
+
+
+#button {
+display: inline-block;
+background-color:blue;
+width: 50px;
+height: 50px;
+line-height:60px;
+text-align: center;
+border-radius: 4px;
+position: fixed;
+bottom: 30px;
+right: 30px;
+transition: background-color .3s, 
+opacity .5s, visibility .5s;
+opacity: 0;
+z-index: 1000;
+}
+
+#button i{
+font-size:32px;
+color:white;
+}
+
+
+
+#button:hover {
+cursor: pointer;
+background-color: #333;
+}
+
+#button.show {
+opacity: 1;
+}
+.hero img{
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 400px;
+    border-radius: 50%;
+    
+    ;
+
+}
+.flex{
+    display: flex;
+}
+body{
+    background-color:#fff;
+}
+.items-center{
+    align-items: center;
+}
+.hero .right h6{
+    font-family: 'mainfont';
+    font-size: 5rem;
+    margin-bottom:0.3rem;
+    margin-right: 80%;
+    
+    
+}
+
+.hero .left h6{
+    padding-right: 10%;
+}
+.hero .right h6 span{
+    padding-left: 10%;
+    color: blue;
+}
+.hero .right h1{
+    font-family: 'secfont';
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    padding-left: 10%;
+    
+}
+.hero .right h1 span{color: blue;}
+
+.btn-secondary{
+    background: transparent;
+    color: black;
+} 
+.btn{
+
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+   
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+.btn-secondary:hover{
+    background: black;
+    color: hotpink;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.flex-1{
+    flex: 1;
+}
+.justify-center{
+    justify-content: centre;
+}
+
+.team{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    
+}
+
+.team span{
+
+    color: blue;
+}
+h4:after{
+    content: '';
+    background: rgb(0, 0, 0);
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 10px auto;
+    
+}
+
+.team img{
+    padding-top: 100px;
+    width: 100%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+    
+}
+
+.team img:hover{
+
+    filter: grayscale(0%);
+
+
+
+}
+
+.profile{
+    margin-top: 25px;
+}
+.profile .img-box{
+   opacity: 1;
+    display: block;
+    position: relative;
+    
+}
+.profile h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.profile h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+
+.img-box ul{
+    margin: 0;
+    padding: 20px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    
+}
+.img-box ul li{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 3px;
+    padding: 7px;
+    display: inline-block;
+    
+}
+.img-box{
+    color: rgb(0, 0, 0);
+}
+
+.achievements h1{
+    font-family: 'mainfont';
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+div.container {
+    text-align: center;
+    margin-top: 20PX;
+  }
+  
+  ul.myUL {
+    font-size: 20px;
+    display: inline-block;
+    text-align: left;
+  }
+  .QUALIFICATIONS h1{
+    font-family: 'mainfont';
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    text-align: 10%;
+  }
+
+  .footer1{
+    
+    width: 100%;
+    text-align: center;
+    padding: 5px ;
+    margin-top: 5%;
+    
+
+}
+.footer1 h4{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-weight: 800PX;
+    font-size: 28PX;
+    font-family: 'mainfont';
+    font-size: 30px;
+    color: blue;
+    text-shadow: 3px 3px 3px #ababab;
+    
+    
+   
+}
+.icons .fa{
+    color: blue;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart{
+    color: #ac0b0b;
+}
